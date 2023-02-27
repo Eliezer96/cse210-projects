@@ -5,7 +5,7 @@ public class ScriptureClass
     
     private string _text1;
 
-    private List<string> _AllScriptures = new List<string>();
+    private List<string> _allScriptures = new List<string>();
 
     private string _filePath;
 
