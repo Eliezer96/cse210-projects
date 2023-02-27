@@ -62,7 +62,7 @@ public class ScriptureClass
 
         foreach (string line in lines)
         {
-            _AllScriptures.Add(line);
+            _allScriptures.Add(line);
         }
 
     }
@@ -71,9 +71,9 @@ public class ScriptureClass
     public void RandomScripture()
     {
         Random random = new Random();
-        int randomNum = random.Next(0,_AllScriptures.Count());
+        int randomNum = random.Next(0,_allScriptures.Count());
 
-        var chosenScripture = _AllScriptures[randomNum];
+        var chosenScripture = _allScriptures[randomNum];
 
         _text1 = chosenScripture;
     }
